@@ -11,7 +11,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* Form Container */
+
 .login-container {
   background-color: #2E2E42; 
   padding: 3rem;
@@ -22,7 +22,7 @@
   text-align: center;
 }
 
-/* Title */
+
 .login-title {
   color: #ffffff;
   font-size: 2rem;
@@ -30,14 +30,14 @@
   font-weight: 600;
 }
 
-/* Form */
+
 .login-form {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
 
-/* Error state and animation */
+
 .login-form.has-error .input-group input.input-error {
   box-shadow: 0 0 0 3px rgba(255, 77, 79, 0.4);
   border: 1px solid #ff4d4f;

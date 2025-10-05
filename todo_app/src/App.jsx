@@ -1,11 +1,9 @@
 import Form from "../Form"
 
 function App() {
- 
-
   return (
     <>
-      <Form/>
+      <Form />
     </>
   )
 }

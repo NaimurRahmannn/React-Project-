@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Formcss.css"; // Import the CSS stylesheet
+import "./Formcss.css";
 import Todo_App from "./Todo_App";
 const Form = () => {
   const [username, setUsername] = useState("");
@@ -10,8 +10,8 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (password === "1234") {
-      setIsAuthenticated(true);
       setError("");
+      setIsAuthenticated(true);
     } else {
       setError("The password you’ve entered is incorrect.");
       setShake(true);
